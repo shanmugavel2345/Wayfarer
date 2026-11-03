@@ -1,8 +1,8 @@
-package com.shank.busbooking.contrtoller;
+package com.shank.busbooking.bus_service.contrtoller;
 
-import com.shank.busbooking.dto.BusRequest;
-import com.shank.busbooking.dto.BusResponse;
-import com.shank.busbooking.service.BusService;
+import com.shank.busbooking.bus_service.dto.BusRequest;
+import com.shank.busbooking.bus_service.dto.BusResponse;
+import com.shank.busbooking.bus_service.service.BusService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
